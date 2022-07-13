@@ -28,3 +28,8 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+#container-radio {
+  display: flex;
+  align-items: center;
+}
