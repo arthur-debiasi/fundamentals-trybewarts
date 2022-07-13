@@ -32,7 +32,7 @@ main {
   height: 500px;
 }
 
-.input-container-name {
+.input-container-dbrow {
   display: flex;
   justify-content: space-between;
 }
