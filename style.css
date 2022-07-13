@@ -37,10 +37,15 @@ main {
   justify-content: space-between;
 }
 
+.input-container-dbcolumn {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .evaluation-form-input-area {
   display: flex;
   flex-direction: column;
-  font-size: 22px;
+  font-size: 1em;
 }
 
 footer {
