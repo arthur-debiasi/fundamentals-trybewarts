@@ -58,3 +58,6 @@ footer {
   align-items: center;
 }
 
+#counter {
+  display: inline;
+}
