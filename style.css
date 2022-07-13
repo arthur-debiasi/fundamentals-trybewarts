@@ -18,3 +18,8 @@ main {
 form {
   display: flex;
 }
+
+#trybewarts-forms-logo {
+  width: 500px;
+}
+
