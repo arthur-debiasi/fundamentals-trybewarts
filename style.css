@@ -24,3 +24,7 @@ form {
   width: 500px;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+}
