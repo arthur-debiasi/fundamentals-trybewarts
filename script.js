@@ -55,6 +55,8 @@ function familyData() {
     if (radioFamily[i].checked === true) {
       family = `Família: ${radioFamily[i].value}`;
       break;
+    } else {
+      family = 'Família:';
     }
   }
   return family;
@@ -62,19 +64,32 @@ function familyData() {
 
 function materiasData() {
   const materias = document.querySelectorAll('.evaluation-form-input-checkbox');
-  let materiasChecked = 'Matérias: ';
+  const materiasChecked = [];
   for (let i = 0; i < materias.length; i += 1) {
     if (materias[i].checked === true) {
-      materiasChecked += `, ${materias[i].checked.value}`;
+      materiasChecked.push(materias[i]);
     }
   }
-  return materiasChecked;
+  let materiasText = 'Matérias:';
+  for (let i = 0; i < materiasChecked.length; i += 1) {
+    materiasText += ` ${materiasChecked[i].value},`;
+  }
+  return materiasText.slice(0, -1);
 }
 
-// function submitData() {
+function ratingData() {
+  const radioRate = document.querySelectorAll('#container-radio input');
+  for (let i = 0; i < radioRate.length; i += 1) {
+    if (radioRate[i].checked === true) {
+      return `Avaliação: ${radioRate[i].value}`;
+    }
+  }
+  return 'Avaliação:';
+}
 
-// const family = familyData();
-// }
+function obsData() {
+  return `Observações: ${document.querySelector('textarea').value}`;
+}
 
 function formDataInnerHTML() {
   let innerHTML = `${nameData()}<br>`;
@@ -82,6 +97,8 @@ function formDataInnerHTML() {
   innerHTML += `${casaData()}<br>`;
   innerHTML += `${familyData()}<br>`;
   innerHTML += `${materiasData()}<br>`;
+  innerHTML += `${ratingData()}<br>`;
+  innerHTML += `${obsData()}<br>`;
   return innerHTML;
 }
 
