@@ -6,6 +6,7 @@ const agreement = document.getElementById('agreement');
 const comment = document.getElementById('textarea');
 const commentCounter = document.getElementById('counter');
 const evaluationForm = document.querySelector('#evaluation-form');
+const main = document.getElementsByTagName('main')[0];
 
 function loginValidation() {
   if (email.value === 'tryber@teste.com' && password.value === '123456') {
@@ -30,11 +31,13 @@ function characterCounter() {
 
 comment.addEventListener('input', characterCounter);
 
-// function nameData() {
-//   const name = document.querySelector('#input-name').value;
-//   const lastName = document.querySelector('#input-lastname').value;
-//   return `Nome: ${name} ${lastName}`; // nome :
-// }
+function nameData() {
+  const name = document.querySelector('#input-name').value;
+  const lastName = document.querySelector('#input-lastname').value;
+  const nameP = document.createElement('p');
+  nameP.innerText = `Nome: ${name} ${lastName}`; // nome :
+  return nameP;
+}
 
 // function familyData() {
 //   const radioFamily = document.querySelectorAll('.evaluation-form-input-radio');
@@ -60,16 +63,19 @@ comment.addEventListener('input', characterCounter);
 // }
 
 // function submitData() {
-//   const name = nameData();
-//   const emailValue = `Email: ${email.value}`;
-//   const casa = `Casa: ${document.getElementById('house').value}`;
-//   const family = familyData();
+
+// const emailValue = `Email: ${email.value}`;
+// const casa = `Casa: ${document.getElementById('house').value}`;
+// const family = familyData();
 // }
 
 function formSubmit(event) {
   event.preventDefault();
   evaluationForm.className = 'display-none';
-  // const submitContainer = document.createElement
+  const formData = document.createElement('div');
+  formData.id = 'form-data';
+  main.appendChild(formData);
+  formData.appendChild(nameData());
 }
 
 submitBtn.addEventListener('click', formSubmit);
