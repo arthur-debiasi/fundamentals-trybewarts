@@ -20,41 +20,40 @@
     <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg">
     <h1 id="trybewarts-header-title">Trybewarts</h1>
     <form action="" method="get" class="trybewarts-login">
-      <input type="email" name="email" id="email" placeholder="Email">
-      <input type="password" name="password" id="password" placeholder="Senha">
+      <input type="email" name="email" id="email" placeholder="  Email">
+      <input type="password" name="password" id="password" placeholder="  Senha">
       <button id="login-btn">Entrar</button>
     </form>
   </header>
   <main>
     <form id="evaluation-form" class="evaluation-form">
+      <h2>Formulário de Avaliação</h2>
       <div class="input-container-dbrow">
-        <div>
-          <label for="input-name" class="evaluation-form-label">Nome</label>
-          <input id="input-name" class="evaluation-form-input" placeholder="Nome">
+        <div class="evaluation-form-input-area">
+          <!-- <label for="input-name" class="evaluation-form-label">Nome</label> -->
+          <input id="input-name" class="evaluation-form-input" placeholder="  Nome">
         </div>
   
-        <div>
-          <label for="input-lastname" class="evaluation-form-label">Sobrenome</label>
-          <input id="input-lastname" class="evaluation-form-input" placeholder="Sobrenome">
+        <div class="evaluation-form-input-area">
+          <!-- <label for="input-lastname" class="evaluation-form-label">Sobrenome</label> -->
+          <input id="input-lastname" class="evaluation-form-input" placeholder="  Sobrenome">
         </div>
       </div>
     
       <div class="input-container-dbrow">
         <div class="evaluation-form-input-area">
-          <label for="input-email" class="evaluation-form-label">E-mail</label>
-          <input id="input-email" class="evaluation-form-input" placeholder="Email">
+          <!-- <label for="input-email" class="evaluation-form-label">E-mail</label> -->
+          <input id="input-email" class="evaluation-form-input" placeholder="  Email">
         </div>
   
-        <div class="evaluation-form-input-area">
-          <label class="evaluation-form-label">Escolha a sua Casa</label>
-          <div class="evaluation-select-area">
-            <select id="house" class="evaluation-form-select">
-              <option id="gitnoria-house" value="Gitnória">Gitnória</option>
-              <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
-              <option id="corvinode-house" value="Corvinode">Corvinode</option>
-              <option id="pytherina-house" value="Pytherina">Pytherina</option>
-            </select>
-          </div>
+        <div id="house-container" class="evaluation-form-input-area">
+          <label class="house-label">Casa:</label>
+          <select id="house" class="evaluation-form-select">
+            <option id="gitnoria-house" value="Gitnória">Gitnória</option>
+            <option id="reactpuff-house" value="Reactpuff">Reactpuff</option>
+            <option id="corvinode-house" value="Corvinode">Corvinode</option>
+            <option id="pytherina-house" value="Pytherina">Pytherina</option>
+          </select>
         </div>
       </div>
       <div class="input-container-dbcolumn"></div>
