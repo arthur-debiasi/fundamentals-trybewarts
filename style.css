@@ -61,3 +61,7 @@ footer {
 #counter {
   display: inline;
 }
+
+.display-none {
+  display: none;
+}
