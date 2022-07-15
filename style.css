@@ -240,3 +240,7 @@ button:hover {
   color: rgb(196, 193, 193);
   font-size: 20px;
 }
+
+#form-data {
+  color: black;
+}
