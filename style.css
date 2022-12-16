@@ -36,8 +36,9 @@ body {
 
 main {
   display: flex;
+  flex-wrap: wrap;
   padding: 40px 0;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.8);
   width: 100%;
@@ -61,7 +62,7 @@ hr {
 
 #background-form {
   border: 2px solid rgb(241, 235, 213);
-  border-radius: 10% 10% 0;
+  border-radius: 10% 10%;
   width: 750px;
   display: flex;
   justify-content: center;
@@ -224,11 +225,9 @@ button:hover {
   justify-content: center;
 }
 
-/* Essas linhas abaixo, estão comentadas por causa do requisito 21
-======= se quiser ver o que tem ali, só desoculta-las =========
  .estrelas input {
   visibility: hidden;
-} */
+} 
 
 .estrelas label .fa:before {
   content: '\f005';
