@@ -1,16 +1,21 @@
 # [Trybe](https://www.betrybe.com/) Project - [Trybewarts](https://arthur-debiasi.github.io/fundamentals-trybewarts/) 
 
 ## 💻 Project
-Todo list app build with HTML, CSS and Javascript. It's possible to insert, remove, move, save, delete, order and check todos as complete
+A feedback form page from students of Trybewarts School of Witchcraft and Wizardry.
+
+- Project Collaborators
+
+> [Arthur Debiasi](https://github.com/arthur-debiasi), [Ricardo P. Machado](https://github.com/RichardPMachado)
 
 ## 🚀 Built With
 
-> [![Javascript][Javascript]][Javascript-url][![HTML5][HTML5]][HTML5-url][![CSS3][CSS3]][CSS3-url][![Bootstrap][Bootstrap]][Bootstrap-url]
+> [![Javascript][Javascript]][Javascript-url][![HTML5][HTML5]][HTML5-url][![CSS3][CSS3]][CSS3-url]
 
 ## 📌 Skills
 
 - Javascript Manipulation;
 - DOM manipulation.
+- CSS stylying and positioning
 
 ## 💬 Contact Me
 
@@ -20,12 +25,6 @@ Todo list app build with HTML, CSS and Javascript. It's possible to insert, remo
   <a href = "mailto:arthurdebiasi@hotmail.com"><img height="28rem" src="https://img.shields.io/badge/outlook-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white" target="_blank"></a>
 </div>
 
-<!-- ## 📄 Licença
-
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
-
-[⬆ Voltar ao topo](#nome-do-projeto)<br> -->
-
 [Javascript]: https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white
 [Javascript-url]: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
@@ -34,5 +33,3 @@ Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais
 [CSS3]: https://img.shields.io/badge/css_3-1572B6?style=for-the-badge&logo=css3&logoColor=white
 [CSS3-url]: https://developer.mozilla.org/pt-BR/docs/Web/CSS
 [HTML5-URL]: https://developer.mozilla.org/en-US/docs/Glossary/HTML5
-[Bootstrap]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
